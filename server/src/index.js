@@ -1,4 +1,4 @@
-// Entry point: HTTP server (static client/dist + /healthz) and socket.io game server.
+// HTTP server (static client/dist + /healthz) and socket.io game server.
 // Env: PORT (3001), HOST (0.0.0.0), SPEED (timer multiplier, e.g. 0.2 for quick tests),
 //      STATIC_DIR (default ../client/dist), LOG_LEVEL (debug|info|warn|error|silent).
 import http from 'node:http';
@@ -86,27 +86,4 @@ export async function startServer(opts = {}) {
   }
 
   return { port: actual, host, url: `http://${shownHost}:${actual}`, io, httpServer, manager, close, speed, staticDir: serveStatic ? staticDir : null };
-}
-
-// CLI ---------------------------------------------------------------------------------------------
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  process.on('uncaughtException', (err) => log.error('exception non attrapée :', err));
-  process.on('unhandledRejection', (err) => log.error('promesse rejetée :', err));
-  const port = Number(process.env.PORT) || 3001;
-  const host = process.env.HOST || '0.0.0.0';
-  const speed = Number(process.env.SPEED) || 1;
-  const staticDir = process.env.STATIC_DIR ? path.resolve(process.env.STATIC_DIR) : undefined;
-  startServer({ port, host, speed, staticDir }).then((srv) => {
-    log.info(`Loup-Garou prêt sur ${srv.url} (écoute ${host}:${srv.port}, vitesse x${speed}, client : ${srv.staticDir ?? 'non construit'})`);
-    const stop = (sig) => {
-      log.info(`${sig} reçu, arrêt…`);
-      srv.close().finally(() => process.exit(0));
-      setTimeout(() => process.exit(0), 3000).unref();
-    };
-    process.on('SIGINT', () => stop('SIGINT'));
-    process.on('SIGTERM', () => stop('SIGTERM'));
-  }).catch((err) => {
-    log.error('démarrage impossible :', err);
-    process.exit(1);
-  });
 }
