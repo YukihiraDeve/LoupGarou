@@ -1,0 +1,745 @@
+{
+ "file": "camp.glb",
+ "generator": "blender/scene/scripts (Blender 5.2, glTF Transform 4.5)",
+ "units": "metres, Y up (three.js); Blender -Y = three.js +Z",
+ "file_size_bytes": 1108064,
+ "triangles": 104072,
+ "draw_calls_approx": 30,
+ "materials_count": 15,
+ "materials": [
+  "bark",
+  "EMIT_bulbs",
+  "EMIT_embers",
+  "EMIT_lantern",
+  "EMIT_tent",
+  "EMIT_window",
+  "fabric",
+  "foliage",
+  "ground",
+  "ground_far",
+  "mountain",
+  "paint",
+  "stone",
+  "wood",
+  "grass"
+ ],
+ "emissive_materials": {
+  "EMIT_bulbs": {
+   "emissive": [
+    1,
+    0.571,
+    0.184
+   ],
+   "emissiveIntensity_night": 5,
+   "baseColor": [
+    0.896,
+    0.791,
+    0.578
+   ],
+   "usage": "ampoules des guirlandes"
+  },
+  "EMIT_embers": {
+   "emissive": [
+    1,
+    0.175,
+    0.014
+   ],
+   "emissiveIntensity_night": 1.2,
+   "baseColor": [
+    0.042,
+    0.01,
+    0.005
+   ],
+   "usage": "braises du foyer + bouts incandescents des buches (pas de flamme : le client fait les flammes)"
+  },
+  "EMIT_lantern": {
+   "emissive": [
+    1,
+    0.397,
+    0.068
+   ],
+   "emissiveIntensity_night": 4,
+   "baseColor": [
+    0.871,
+    0.694,
+    0.392
+   ],
+   "usage": "verre des lanternes (poteaux, porche, tour, table, lanternes posees au sol)"
+  },
+  "EMIT_tent": {
+   "emissive": [
+    0.35,
+    0.089,
+    0.014
+   ],
+   "emissiveIntensity_night": 1.0,
+   "baseColor": [
+    1,
+    1,
+    1
+   ],
+   "usage": "toile de la tente cloche eclairee de l'interieur (tent_1) - ajout au contrat"
+  },
+  "EMIT_window": {
+   "emissive": [
+    1,
+    0.392,
+    0.08
+   ],
+   "emissiveIntensity_night": 1.6,
+   "baseColor": [
+    0.584,
+    0.371,
+    0.144
+   ],
+   "usage": "fenetres des chalets et cabane de la tour de guet"
+  }
+ },
+ "instancing": {
+  "nodes": 12,
+  "instances": 726,
+  "extension": "EXT_mesh_gpu_instancing"
+ },
+ "textures": [
+  {
+   "name": "bark",
+   "mime": "image/webp"
+  },
+  {
+   "name": "ground",
+   "mime": "image/webp"
+  }
+ ],
+ "extensions_used": [
+  "EXT_mesh_gpu_instancing",
+  "EXT_meshopt_compression",
+  "EXT_texture_webp",
+  "KHR_materials_emissive_strength",
+  "KHR_mesh_quantization"
+ ],
+ "markers": {
+  "fire": {
+   "name": "fire",
+   "position": [
+    0,
+    0,
+    0
+   ]
+  },
+  "seats": [
+   {
+    "name": "seat_00",
+    "position": [
+     0,
+     0.452,
+     3.5
+    ],
+    "quaternion": [
+     0,
+     1,
+     0,
+     0.0
+    ],
+    "forward": [
+     0.0,
+     0.0,
+     -1.0
+    ]
+   },
+   {
+    "name": "seat_01",
+    "position": [
+     1.339,
+     0.452,
+     3.234
+    ],
+    "quaternion": [
+     0,
+     -0.98079,
+     0,
+     0.19509
+    ],
+    "forward": [
+     -0.383,
+     0.0,
+     -0.924
+    ]
+   },
+   {
+    "name": "seat_02",
+    "position": [
+     2.475,
+     0.453,
+     2.475
+    ],
+    "quaternion": [
+     0,
+     -0.92388,
+     0,
+     0.38268
+    ],
+    "forward": [
+     -0.707,
+     0.0,
+     -0.707
+    ]
+   },
+   {
+    "name": "seat_03",
+    "position": [
+     3.234,
+     0.453,
+     1.339
+    ],
+    "quaternion": [
+     0,
+     -0.83147,
+     0,
+     0.55557
+    ],
+    "forward": [
+     -0.924,
+     0.0,
+     -0.383
+    ]
+   },
+   {
+    "name": "seat_04",
+    "position": [
+     3.5,
+     0.452,
+     0
+    ],
+    "quaternion": [
+     0,
+     -0.70711,
+     0,
+     0.70711
+    ],
+    "forward": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "name": "seat_05",
+    "position": [
+     3.234,
+     0.452,
+     -1.339
+    ],
+    "quaternion": [
+     0,
+     -0.55557,
+     0,
+     0.83147
+    ],
+    "forward": [
+     -0.924,
+     0.0,
+     0.383
+    ]
+   },
+   {
+    "name": "seat_06",
+    "position": [
+     2.475,
+     0.457,
+     -2.475
+    ],
+    "quaternion": [
+     0,
+     -0.38268,
+     0,
+     0.92388
+    ],
+    "forward": [
+     -0.707,
+     0.0,
+     0.707
+    ]
+   },
+   {
+    "name": "seat_07",
+    "position": [
+     1.339,
+     0.457,
+     -3.234
+    ],
+    "quaternion": [
+     0,
+     -0.19509,
+     0,
+     0.98079
+    ],
+    "forward": [
+     -0.383,
+     0.0,
+     0.924
+    ]
+   },
+   {
+    "name": "seat_08",
+    "position": [
+     0,
+     0.448,
+     -3.5
+    ],
+    "quaternion": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "forward": [
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "seat_09",
+    "position": [
+     -1.339,
+     0.448,
+     -3.234
+    ],
+    "quaternion": [
+     0,
+     0.19509,
+     0,
+     0.98079
+    ],
+    "forward": [
+     0.383,
+     0.0,
+     0.924
+    ]
+   },
+   {
+    "name": "seat_10",
+    "position": [
+     -2.475,
+     0.446,
+     -2.475
+    ],
+    "quaternion": [
+     0,
+     0.38268,
+     0,
+     0.92388
+    ],
+    "forward": [
+     0.707,
+     0.0,
+     0.707
+    ]
+   },
+   {
+    "name": "seat_11",
+    "position": [
+     -3.234,
+     0.446,
+     -1.339
+    ],
+    "quaternion": [
+     0,
+     0.55557,
+     0,
+     0.83147
+    ],
+    "forward": [
+     0.924,
+     0.0,
+     0.383
+    ]
+   },
+   {
+    "name": "seat_12",
+    "position": [
+     -3.5,
+     0.446,
+     0
+    ],
+    "quaternion": [
+     0,
+     0.70711,
+     0,
+     0.70711
+    ],
+    "forward": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "name": "seat_13",
+    "position": [
+     -3.234,
+     0.446,
+     1.339
+    ],
+    "quaternion": [
+     0,
+     0.83147,
+     0,
+     0.55557
+    ],
+    "forward": [
+     0.924,
+     0.0,
+     -0.383
+    ]
+   },
+   {
+    "name": "seat_14",
+    "position": [
+     -2.475,
+     0.446,
+     2.475
+    ],
+    "quaternion": [
+     0,
+     0.92388,
+     0,
+     0.38268
+    ],
+    "forward": [
+     0.707,
+     0.0,
+     -0.707
+    ]
+   },
+   {
+    "name": "seat_15",
+    "position": [
+     -1.339,
+     0.446,
+     3.234
+    ],
+    "quaternion": [
+     0,
+     0.98079,
+     0,
+     0.19509
+    ],
+    "forward": [
+     0.383,
+     0.0,
+     -0.924
+    ]
+   }
+  ],
+  "lights": {
+   "lantern": [
+    {
+     "name": "light_lantern_00",
+     "position": [
+      -0.699,
+      1.27,
+      4.971
+     ]
+    },
+    {
+     "name": "light_lantern_01",
+     "position": [
+      4.245,
+      1.27,
+      2.863
+     ]
+    },
+    {
+     "name": "light_lantern_02",
+     "position": [
+      5.018,
+      1.27,
+      1.439
+     ]
+    },
+    {
+     "name": "light_lantern_03",
+     "position": [
+      2.244,
+      1.27,
+      -4.602
+     ]
+    },
+    {
+     "name": "light_lantern_04",
+     "position": [
+      -4.473,
+      1.27,
+      -2.279
+     ]
+    },
+    {
+     "name": "light_lantern_05",
+     "position": [
+      -0.81,
+      0.13,
+      4.07
+     ]
+    },
+    {
+     "name": "light_lantern_06",
+     "position": [
+      3.492,
+      0.13,
+      -2.333
+     ]
+    },
+    {
+     "name": "light_lantern_07",
+     "position": [
+      -4.021,
+      0.13,
+      -0.8
+     ]
+    },
+    {
+     "name": "light_lantern_08",
+     "position": [
+      -0.769,
+      1.486,
+      7.389
+     ]
+    },
+    {
+     "name": "light_lantern_09",
+     "position": [
+      8.68,
+      6.75,
+      6.178
+     ]
+    },
+    {
+     "name": "light_lantern_10",
+     "position": [
+      -4.284,
+      0.915,
+      -5.283
+     ]
+    },
+    {
+     "name": "light_lantern_11",
+     "position": [
+      -3.254,
+      1,
+      4.323
+     ]
+    }
+   ],
+   "window": [
+    {
+     "name": "light_window_00",
+     "position": [
+      1.658,
+      1.4,
+      8.973
+     ]
+    },
+    {
+     "name": "light_window_01",
+     "position": [
+      -1.816,
+      1.4,
+      8.552
+     ]
+    },
+    {
+     "name": "light_window_02",
+     "position": [
+      2.829,
+      1.4,
+      11.784
+     ]
+    },
+    {
+     "name": "light_window_03",
+     "position": [
+      -11.195,
+      1.375,
+      -1.204
+     ]
+    },
+    {
+     "name": "light_window_04",
+     "position": [
+      -8.425,
+      1.375,
+      -4.159
+     ]
+    },
+    {
+     "name": "light_window_05",
+     "position": [
+      4.765,
+      1.325,
+      -8.2
+     ]
+    },
+    {
+     "name": "light_window_06",
+     "position": [
+      7.591,
+      8.725,
+      7.168
+     ]
+    }
+   ],
+   "string": [
+    {
+     "name": "light_string_00",
+     "position": [
+      5.373,
+      2.645,
+      -2.418
+     ]
+    },
+    {
+     "name": "light_string_01",
+     "position": [
+      2.552,
+      2.728,
+      -5.373
+     ]
+    },
+    {
+     "name": "light_string_02",
+     "position": [
+      -1.829,
+      2.501,
+      -5.09
+     ]
+    },
+    {
+     "name": "light_string_03",
+     "position": [
+      -5.541,
+      2.673,
+      -1.909
+     ]
+    },
+    {
+     "name": "light_string_04",
+     "position": [
+      -5.842,
+      2.738,
+      1.762
+     ]
+    },
+    {
+     "name": "light_string_05",
+     "position": [
+      -3.585,
+      2.732,
+      4.56
+     ]
+    },
+    {
+     "name": "light_string_06",
+     "position": [
+      -0.021,
+      2.703,
+      6.029
+     ]
+    },
+    {
+     "name": "light_string_07",
+     "position": [
+      4.254,
+      2.265,
+      3.007
+     ]
+    },
+    {
+     "name": "light_string_08",
+     "position": [
+      -0.439,
+      2.141,
+      6.335
+     ]
+    },
+    {
+     "name": "light_string_09",
+     "position": [
+      0.066,
+      2.111,
+      6.56
+     ]
+    },
+    {
+     "name": "light_string_10",
+     "position": [
+      5.324,
+      2.637,
+      6.293
+     ]
+    },
+    {
+     "name": "light_string_11",
+     "position": [
+      -6.802,
+      2.171,
+      -2.277
+     ]
+    },
+    {
+     "name": "light_string_12",
+     "position": [
+      4.057,
+      2.006,
+      -6.444
+     ]
+    }
+   ]
+  },
+  "cam_intro": {
+   "name": "cam_intro",
+   "position": [
+    -0.916,
+    10.2,
+    -17.476
+   ],
+   "quaternion": [
+    -0.00537,
+    -0.97275,
+    -0.2307,
+    0.02263
+   ],
+   "forward": [
+    0.042,
+    -0.449,
+    0.893
+   ],
+   "target": [
+    -0.0,
+    0.3,
+    2.2
+   ],
+   "yfov_deg": 45.75,
+   "aspect": 1.7778
+  }
+ },
+ "seat_count": 16,
+ "seat_height_range": [
+  0.446,
+  0.457
+ ],
+ "notes": [
+  "Chargement : GLTFLoader + MeshoptDecoder obligatoire (EXT_meshopt_compression, KHR_mesh_quantization) ; three.js r15x+ gere EXT_mesh_gpu_instancing (InstancedMesh) et EXT_texture_webp.",
+  "Marqueurs = noeuds vides a la racine (aucun parent) : la position/rotation locale est la position monde.",
+  "seat_XX : bassin du personnage assis (surface d'assise, 0,44-0,46 m), +Z local tourne vers le feu ; ordre trigonometrique vu du dessus, seat_00 en +Z (face a cam_intro qui est en -Z).",
+  "Yeux du joueur assis : environ siege + (0, 0,70, 0) en Y, legerement avance de 0,05-0,1 m vers le feu.",
+  "fire : centre du foyer au sol ; cercle de pierres rayon ~0,93 m, lit de braises rayon ~0,6 m, buches jusqu'a 0,5 m de haut : les flammes du client peuvent occuper un cone de ~0,55 m de rayon x 1,4 m.",
+  "Couleur de base = COLOR_0 (albedo x occlusion ambiante cuite) : garder material.vertexColors (fait automatiquement par GLTFLoader). Le sol (materiau 'ground') porte l'AO dans sa texture 2048 px.",
+  "Materiau 'bark' = texture de detail d'ecorce (repeat) x COLOR_0 ; materiaux 'fabric' et 'grass' doubleSided.",
+  "EMIT_* : emissiveIntensity exportee = valeur de nuit (KHR_materials_emissive_strength). Le jour, la multiplier par ~0,05-0,15 (EMIT_embers peut garder ~0,4).",
+  "Lumieres ponctuelles conseillees : light_window_* (orange chaud ~#ffa04a, portee 6-8 m), light_lantern_* (~#ff9a40, portee 4-5 m), light_string_* (blanc chaud ~#ffc777, portee 4 m). Allumer les plus proches du joueur selon la qualite.",
+  "Pas de ciel dans le GLB : 'camp_mountain' (silhouettes a 250-400 m) et 'treeline' (dans camp_foliage, anneau de silhouettes de sapins a ~66 m) ferment l'horizon ; prevoir camera.far >= 800 m et un brouillard teinte (le sol lointain monte en cuvette jusqu'a ~16 m).",
+  "Ombres : seuls les objets proches meritent castShadow (camp_bark, camp_wood, camp_stone, camp_fabric, camp_paint, sapins proches) ; le sol 'camp_ground' doit receiveShadow.",
+  "Aucun element de la scene dans un rayon de 2,6 m autour du feu hormis les pierres et les buches du foyer : l'espace devant les sieges (jambes) est plat (y = 0)."
+ ]
+}

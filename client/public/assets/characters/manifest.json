@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "characters": [
+    {
+      "id": "camper_01",
+      "name": "Tom",
+      "description": "Jeune homme brun, chemise à carreaux rouge de bûcheron, jean et bottes de rando.",
+      "height": 1.792,
+      "file": "camper_01.glb",
+      "scale": 1.03,
+      "triangles": 7264,
+      "bones": 55,
+      "bytes": 98744,
+      "sitPelvisHeight": 0.464,
+      "seatedEyeOffset": [
+        0.0083,
+        0.7978,
+        0.1205
+      ]
+    },
+    {
+      "id": "camper_02",
+      "name": "Léa",
+      "description": "Chapeau de paille, pull crème, jean retroussé, baskets en toile, cheveux châtains ondulés.",
+      "height": 1.683,
+      "file": "camper_02.glb",
+      "scale": 0.96,
+      "triangles": 7988,
+      "bones": 55,
+      "bytes": 122908,
+      "sitPelvisHeight": 0.432,
+      "seatedEyeOffset": [
+        0.0077,
+        0.7437,
+        0.1117
+      ]
+    },
+    {
+      "id": "camper_03",
+      "name": "Bruno",
+      "description": "Barbu jovial, chapeau de ranger, chemise kaki, carrure large.",
+      "height": 1.856,
+      "file": "camper_03.glb",
+      "scale": 1.05,
+      "triangles": 7852,
+      "bones": 55,
+      "bytes": 94792,
+      "sitPelvisHeight": 0.473,
+      "seatedEyeOffset": [
+        0.0085,
+        0.8133,
+        0.1229
+      ]
+    },
+    {
+      "id": "camper_04",
+      "name": "Inès",
+      "description": "Longs cheveux bruns, sweat clair, jean, baskets blanches.",
+      "height": 1.677,
+      "file": "camper_04.glb",
+      "scale": 0.97,
+      "triangles": 7436,
+      "bones": 55,
+      "bytes": 99484,
+      "sitPelvisHeight": 0.436,
+      "seatedEyeOffset": [
+        0.0078,
+        0.7514,
+        0.1131
+      ]
+    },
+    {
+      "id": "camper_05",
+      "name": "Mathis",
+      "description": "Sweat à capuche bleu marine avec un petit sapin imprimé, cheveux en bataille.",
+      "height": 1.743,
+      "file": "camper_05.glb",
+      "scale": 1.0,
+      "triangles": 7376,
+      "bones": 55,
+      "bytes": 95492,
+      "sitPelvisHeight": 0.45,
+      "seatedEyeOffset": [
+        0.008,
+        0.7746,
+        0.1168
+      ]
+    },
+    {
+      "id": "camper_06",
+      "name": "Jeanne",
+      "description": "Dame âgée au bonnet de laine, gros gilet tricoté, lunettes rondes.",
+      "height": 1.666,
+      "file": "camper_06.glb",
+      "scale": 0.93,
+      "triangles": 7852,
+      "bones": 55,
+      "bytes": 104248,
+      "sitPelvisHeight": 0.419,
+      "seatedEyeOffset": [
+        0.0074,
+        0.7006,
+        0.1096
+      ]
+    },
+    {
+      "id": "camper_07",
+      "name": "Karim",
+      "description": "Casquette, doudoune sans manches orange, short cargo, chaussettes hautes.",
+      "height": 1.763,
+      "file": "camper_07.glb",
+      "scale": 1.01,
+      "triangles": 7394,
+      "bones": 55,
+      "bytes": 90876,
+      "sitPelvisHeight": 0.455,
+      "seatedEyeOffset": [
+        0.0081,
+        0.7823,
+        0.1182
+      ]
+    },
+    {
+      "id": "camper_08",
+      "name": "Zoé",
+      "description": "Ado rousse à tresses, salopette en jean, bandana.",
+      "height": 1.533,
+      "file": "camper_08.glb",
+      "scale": 0.92,
+      "triangles": 7720,
+      "bones": 55,
+      "bytes": 117508,
+      "sitPelvisHeight": 0.414,
+      "seatedEyeOffset": [
+        0.007,
+        0.6619,
+        0.1031
+      ]
+    },
+    {
+      "id": "camper_09",
+      "name": "Hugo",
+      "description": "Grand et costaud, bonnet, veste de bûcheron verte, barbe courte.",
+      "height": 1.88,
+      "file": "camper_09.glb",
+      "scale": 1.055,
+      "triangles": 7492,
+      "bones": 55,
+      "bytes": 105344,
+      "sitPelvisHeight": 0.475,
+      "seatedEyeOffset": [
+        0.0087,
+        0.8507,
+        0.1243
+      ]
+    },
+    {
+      "id": "camper_10",
+      "name": "Nina",
+      "description": "Cheveux courts afro, coupe-vent jaune, lampe frontale.",
+      "height": 1.718,
+      "file": "camper_10.glb",
+      "scale": 0.97,
+      "triangles": 7568,
+      "bones": 55,
+      "bytes": 89356,
+      "sitPelvisHeight": 0.436,
+      "seatedEyeOffset": [
+        0.0078,
+        0.7514,
+        0.1131
+      ]
+    }
+  ],
+  "werewolf": {
+    "id": "werewolf",
+    "name": "Loup-garou",
+    "description": "Loup-garou stylisé : fourrure, museau, griffes, yeux jaunes luisants, lambeaux de chemise à carreaux.",
+    "height": 2.04,
+    "file": "werewolf.glb",
+    "scale": 1.06,
+    "triangles": 7998,
+    "bones": 55,
+    "bytes": 107956,
+    "sitPelvisHeight": 0.477,
+    "seatedEyeOffset": [
+      0.0102,
+      0.9268,
+      0.1607
+    ],
+    "emissiveMaterials": [
+      "EMIT_eyes"
+    ]
+  },
+  "anims": "anims.glb",
+  "clips": [
+    {
+      "name": "Sit_Idle",
+      "duration": 4.0,
+      "loop": true,
+      "hold": false
+    },
+    {
+      "name": "Sit_Talk",
+      "duration": 4.0,
+      "loop": true,
+      "hold": false
+    },
+    {
+      "name": "Sit_Sleep",
+      "duration": 5.0,
+      "loop": true,
+      "hold": false
+    },
+    {
+      "name": "Sit_Awake_Night",
+      "duration": 6.0,
+      "loop": true,
+      "hold": false
+    },
+    {
+      "name": "Sit_Point",
+      "duration": 0.9,
+      "loop": false,
+      "hold": true
+    },
+    {
+      "name": "Sit_RaiseHand",
+      "duration": 0.8,
+      "loop": false,
+      "hold": true
+    },
+    {
+      "name": "Sit_Nod",
+      "duration": 1.3,
+      "loop": false,
+      "hold": false
+    },
+    {
+      "name": "Sit_Shake",
+      "duration": 1.4,
+      "loop": false,
+      "hold": false
+    },
+    {
+      "name": "Sit_Shocked",
+      "duration": 2.4,
+      "loop": false,
+      "hold": false
+    },
+    {
+      "name": "Sit_Death",
+      "duration": 3.0,
+      "loop": false,
+      "hold": false
+    },
+    {
+      "name": "Sit_Stand",
+      "duration": 1.0333,
+      "loop": false,
+      "hold": false
+    },
+    {
+      "name": "Stand_Sit",
+      "duration": 1.3,
+      "loop": false,
+      "hold": false
+    },
+    {
+      "name": "Stand_Idle",
+      "duration": 4.0,
+      "loop": true,
+      "hold": false
+    },
+    {
+      "name": "Walk",
+      "duration": 1.3333,
+      "loop": true,
+      "hold": false
+    },
+    {
+      "name": "Wolf_Howl",
+      "duration": 3.6,
+      "loop": false,
+      "hold": false
+    },
+    {
+      "name": "Wolf_Idle",
+      "duration": 3.0,
+      "loop": true,
+      "hold": false
+    }
+  ],
+  "morphTargets": [
+    "Blink",
+    "EyesHalf",
+    "MouthOpen",
+    "Smile",
+    "Worried"
+  ],
+  "lookBones": {
+    "neck": "neck_01",
+    "head": "Head",
+    "eyes": [
+      "eye_l",
+      "eye_r"
+    ],
+    "note": "In the bind pose these bones' local axes match the model axes (+X = character's left, +Y = up, +Z = forward): yaw = rotation about local Y, pitch about local X."
+  },
+  "seat": {
+    "bone": "pelvis",
+    "seatHeight": 0.45,
+    "note": "In every Sit_* clip the pelvis joint is ON the seat surface (0.45 m for scale 1) with the feet flat on the ground; align the pelvis bone world position with the seat_XX marker. With the character scale the seated pelvis sits at sitPelvisHeight above the feet (0.414-0.477 m), so on a 0.45 m seat the feet float/sink by up to ~4 cm; Sit_Stand ends standing ~0.24 m in front of the seat point, Stand_Sit starts there."
+  },
+  "firstPerson": {
+    "hideBone": "Head",
+    "note": "Scale the Head bone to 0 on your own avatar; seatedEyeOffset = eye midpoint relative to the pelvis bone in Sit_Idle (three.js axes, metres, character scale included)."
+  },
+  "orientation": "Origin on the ground between the feet, facing +Z, 1 unit = 1 m.",
+  "compression": "EXT_meshopt_compression + KHR_mesh_quantization + EXT_texture_webp: GLTFLoader.setMeshoptDecoder(MeshoptDecoder) is required.",
+  "clipsNotes": {
+    "Sit_Point": "right arm extended straight forward, index finger; hold the last frame, rotate the torso towards the target",
+    "Sit_RaiseHand": "right hand raised; hold the last frame",
+    "Sit_Death": "ends lying on the ground in front of the seat (clampWhenFinished)",
+    "Wolf_Howl": "drive the MouthOpen morph target during the howl (0.6 s .. 3.0 s)",
+    "Stand_Idle": "retargeted from Quaternius UAL Idle_Loop (CC0)",
+    "Walk": "in place, retargeted from Quaternius UAL Walk_Loop (CC0)"
+  }
+}
