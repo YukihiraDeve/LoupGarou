@@ -20,6 +20,18 @@ Depuis un téléphone du même réseau : ouvrir `http://<IP de l'ordinateur>:518
   `speed=0.5` pour ralentir, `players=12`).
 - Tests du serveur : `npm test` · 1 000 parties de bots : `npm --prefix server run sim -- 1000`.
 
+## Production
+
+En ligne sur https://loupgarou.imgnlab.dev (serveur OVH, même schéma qu'Uno) :
+
+- Code dans `/var/www/imgnlab/prod/loupgarou` (`server/`, `shared/`, `client/dist`, `ecosystem.config.cjs`).
+- Node sous pm2 (app `loupgarou`, `127.0.0.1:3110`, relancé au démarrage par `pm2-claude.service`).
+- Apache sert `client/dist` et relaie `/socket.io/` (polling + WebSocket) : `deploy/*.conf`, certificat Let's Encrypt.
+
+Redéployer : `npm run build`, copier `server/src`, `server/package*.json`, `shared/`, `client/dist` et
+`ecosystem.config.cjs` (rsync `--dry-run` d'abord), `npm ci --omit=dev` dans `server/` si les dépendances
+changent, puis `pm2 reload loupgarou`.
+
 ## Organisation
 
 | Dossier | Contenu |
